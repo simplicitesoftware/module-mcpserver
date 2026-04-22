@@ -1,0 +1,9 @@
+{
+    "date": "2026-04-22 17:18:01",
+    "name": "MCPServer",
+    "format": "json",
+    "files": ["MCPServer.json"],
+    "repository": {},
+    "version": "0.1",
+    "platform": "7.0.0-alpha"
+}

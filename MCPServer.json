@@ -1,0 +1,1719 @@
+{
+ "object": "Module",
+ "userkey": "MCPServer",
+ "item": {
+  "mdl_name": "MCPServer",
+  "mdl_prefix": "mcp",
+  "mdl_version": "0.1",
+  "mdl_type": "T",
+  "mdl_icon": null,
+  "mdl_url": null,
+  "mdl_comment": null
+ },
+ "links": [
+  {
+   "object": "FieldList",
+   "label": "List of values",
+   "icon": "img/system/list_of_values",
+   "field": "row_module_id",
+   "list": [{
+    "object": "FieldList",
+    "userkey": "MCP_MCPPROMPT_TYPE",
+    "item": {
+     "lov_name": "MCP_MCPPROMPT_TYPE",
+     "lov_navbar": null,
+     "lov_navbar_opt": null,
+     "row_module_id__mdl_name": "MCPServer",
+     "lov_model_id__mod_name": null,
+     "lov_selectall_opt": null
+    }
+   }]
+  },
+  {
+   "object": "FieldListCode",
+   "label": "List code",
+   "icon": "img/system/list_of_values",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "FieldListCode",
+     "userkey": "MCP_MCPPROMPT_TYPE~STA",
+     "item": {
+      "lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code": "STA",
+      "lov_order_by": 10,
+      "lov_label": "STARTER",
+      "row_module_id__mdl_name": "MCPServer",
+      "lov_color": null,
+      "lov_color_bg": null,
+      "lov_icon": null,
+      "lov_display": ["L"]
+     }
+    },
+    {
+     "object": "FieldListCode",
+     "userkey": "MCP_MCPPROMPT_TYPE~SYS",
+     "item": {
+      "lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code": "SYS",
+      "lov_order_by": 20,
+      "lov_label": "SYSTEM",
+      "row_module_id__mdl_name": "MCPServer",
+      "lov_color": null,
+      "lov_color_bg": null,
+      "lov_icon": null,
+      "lov_display": ["L"]
+     }
+    }
+   ]
+  },
+  {
+   "object": "FieldListValue",
+   "label": "Translated list value",
+   "icon": "img/system/translation",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "FieldListValue",
+     "userkey": "MCP_MCPPROMPT_TYPE~SYS~ENU",
+     "item": {
+      "lov_code_id__lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code_id__lov_code": "SYS",
+      "lov_lang": "ENU",
+      "lov_value": "SYSTEM",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "FieldListValue",
+     "userkey": "MCP_MCPPROMPT_TYPE~STA~ENU",
+     "item": {
+      "lov_code_id__lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code_id__lov_code": "STA",
+      "lov_lang": "ENU",
+      "lov_value": "STARTER",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "FieldListValue",
+     "userkey": "MCP_MCPPROMPT_TYPE~SYS~FRA",
+     "item": {
+      "lov_code_id__lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code_id__lov_code": "SYS",
+      "lov_lang": "FRA",
+      "lov_value": "Système",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "FieldListValue",
+     "userkey": "MCP_MCPPROMPT_TYPE~STA~FRA",
+     "item": {
+      "lov_code_id__lov_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "lov_code_id__lov_code": "STA",
+      "lov_lang": "FRA",
+      "lov_value": "Starter",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Field",
+   "label": "Fields",
+   "icon": "img/system/field",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptContent",
+     "item": {
+      "fld_name": "mcpMcppromptContent",
+      "fld_dbname": "mcp_mcpprompt_content",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": true,
+      "fld_fonctid": false,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "13",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 100000,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": "MD",
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptIsActive",
+     "item": {
+      "fld_name": "mcpMcppromptIsActive",
+      "fld_dbname": "mcp_mcpprompt_is_active",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": true,
+      "fld_fonctid": false,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "8",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 1,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": "1",
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptLabel",
+     "item": {
+      "fld_name": "mcpMcppromptLabel",
+      "fld_dbname": "mcp_mcpprompt_label",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": false,
+      "fld_fonctid": false,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "3",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 100,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptName",
+     "item": {
+      "fld_name": "mcpMcppromptName",
+      "fld_dbname": "mcp_mcpprompt_name",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": true,
+      "fld_fonctid": true,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "3",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 100,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptOrder",
+     "item": {
+      "fld_name": "mcpMcppromptOrder",
+      "fld_dbname": "mcp_mcpprompt_order",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": false,
+      "fld_fonctid": false,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "1",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 100,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpMcppromptType",
+     "item": {
+      "fld_name": "mcpMcppromptType",
+      "fld_dbname": "mcp_mcpprompt_type",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "3",
+       "2"
+      ],
+      "fld_required": true,
+      "fld_fonctid": false,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "7",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": "MCP_MCPPROMPT_TYPE",
+      "fld_copy": true,
+      "fld_size": 100,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    },
+    {
+     "object": "Field",
+     "userkey": "mcpProModuleId",
+     "item": {
+      "fld_name": "mcpProModuleId",
+      "fld_dbname": "mcp_pro_module_id",
+      "fld_visible": "3",
+      "fld_updatable": [
+       "2",
+       "3"
+      ],
+      "fld_required": true,
+      "fld_fonctid": true,
+      "fld_research": "1",
+      "fld_researchreq": "0",
+      "fld_sort": "C",
+      "fld_more": false,
+      "fld_listmore": false,
+      "fld_listsum": null,
+      "fld_exportable": true,
+      "fld_tray": null,
+      "fld_type": "0",
+      "fld_clipboard": false,
+      "fld_type_id__flt_code": null,
+      "fld_list_id__lov_name": null,
+      "fld_copy": true,
+      "fld_size": 11,
+      "fld_minsize": null,
+      "fld_precision": null,
+      "fld_fromdate_id__fld_name": null,
+      "fld_dfault": null,
+      "fld_indexable": false,
+      "fld_autocomp": "0",
+      "fld_groupby": false,
+      "fld_updall": true,
+      "fld_case": null,
+      "fld_righttoleft": false,
+      "fld_rendering": null,
+      "fld_speech": null,
+      "fld_calc": null,
+      "fld_objlist": null,
+      "fld_settings": null,
+      "fld_comment": null,
+      "fld_classification": null,
+      "fld_anon": null,
+      "row_module_id__mdl_name": "MCPServer",
+      "fld_incrementsyntax": null,
+      "fld_deprecated": null
+     }
+    }
+   ]
+  },
+  {
+   "object": "Template",
+   "label": "Templates",
+   "icon": "img/system/template",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "Template",
+     "userkey": "McpPrompt",
+     "item": {
+      "tpl_name": "McpPrompt",
+      "tpl_ui": "<div class=\"area\" data-area=\"1\"><\/div>",
+      "tpl_min": null,
+      "tpl_image": null,
+      "tpl_grid": null,
+      "tpl_context": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Template",
+     "userkey": "McpPromptGroup",
+     "item": {
+      "tpl_name": "McpPromptGroup",
+      "tpl_ui": "<div class=\"area\" data-area=\"1\"><\/div>",
+      "tpl_min": null,
+      "tpl_image": null,
+      "tpl_grid": null,
+      "tpl_context": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "ObjectFieldArea",
+   "label": "Fields areas",
+   "icon": "img/system/field_area",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "ObjectFieldArea",
+     "userkey": "McpPrompt-1",
+     "item": {
+      "ofa_name": "McpPrompt-1",
+      "ofa_position": 1,
+      "ofa_title": true,
+      "ofa_ui": "<div class=\"row\">\n  <div class=\"col-sm-6\">\n    <div class=\"row\">\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpMcppromptName\"><\/div>\n      <\/div>\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpMcppromptLabel\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"field\" data-field=\"mcpMcppromptContent\"><\/div>\n  <\/div>\n  <div class=\"col-sm-6\">\n    <div class=\"row\">\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpProModuleId__mdl_name\"><\/div>\n      <\/div>\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpMcppromptIsActive\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"row\">\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpMcppromptType\"><\/div>\n      <\/div>\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpMcppromptOrder\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"field\" data-field=\"mcpProModuleId\"><\/div>\n  <\/div>\n<\/div>",
+      "ofa_icon": "star",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "ObjectFieldArea",
+     "userkey": "McpPromptGroup-1",
+     "item": {
+      "ofa_name": "McpPromptGroup-1",
+      "ofa_position": 1,
+      "ofa_title": true,
+      "ofa_ui": "<div class=\"row\">\n  <div class=\"col-sm-6\">\n    <div class=\"field\" data-field=\"mcpPrgProId\"><\/div>\n    <div class=\"row\">\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpPrgProId__mcpMcppromptName\"><\/div>\n      <\/div>\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpPrgProId__mcpMcppromptLabel\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"row\">\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpPrgProId__mcpMcppromptType\"><\/div>\n      <\/div>\n      <div class=\"col-sm-6\">\n        <div class=\"field\" data-field=\"mcpPrgProId__mcpMcppromptIsActive\"><\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n  <div class=\"col-sm-6\">\n    <div class=\"field\" data-field=\"mcpPrgGroupId\"><\/div>\n    <div class=\"field\" data-field=\"mcpPrgGroupId__grp_name\"><\/div>\n  <\/div>\n<\/div>",
+      "ofa_icon": "star",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Domain",
+   "label": "Domains",
+   "icon": "img/system/domain",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Domain",
+    "userkey": "McpDomain",
+    "item": {
+     "obd_name": "McpDomain",
+     "obd_comment": null,
+     "obd_type": "D",
+     "obd_menu": "L",
+     "obd_view_id__viw_name": null,
+     "obd_nohome": true,
+     "obd_icon": "icon/mcp/MCP Icons/Model_Context_Protocol_logo",
+     "obd_order": 10,
+     "obd_domain_id__obd_name": null,
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  },
+  {
+   "object": "ObjectInternal",
+   "label": "Business objects",
+   "icon": "img/system/business_object",
+   "field": "row_module_id",
+   "list": [{
+    "object": "ObjectInternal",
+    "userkey": "McpPrompt",
+    "item": {
+     "obo_name": "McpPrompt",
+     "obo_dbtable": "mcp_prompt",
+     "obo_role": "OBJ",
+     "obo_class": null,
+     "obo_script_id": null,
+     "obo_usets": "1",
+     "obo_nosearch": "1",
+     "obo_comment": null,
+     "obo_type": "O",
+     "obo_searchspec": null,
+     "obo_exportorder": null,
+     "obo_distinct": false,
+     "obo_indexable": false,
+     "obo_groupby": false,
+     "obo_dfltref": null,
+     "obo_template_id__tpl_name": "McpPrompt",
+     "obo_tpl_list_id__tpl_name": null,
+     "obo_copy": true,
+     "obo_export": ["1"],
+     "obo_pagine": true,
+     "obo_srh_predef": ["1"],
+     "obo_selrow": true,
+     "obo_updall": true,
+     "obo_delall": true,
+     "obo_listsearch": true,
+     "obo_list_edit": [
+      "N",
+      "L",
+      "E"
+     ],
+     "obo_useform": true,
+     "obo_title": null,
+     "obo_icon": "document",
+     "obo_refcount": false,
+     "obo_tree": false,
+     "obo_viewmode": "T",
+     "obo_historic": null,
+     "obo_printable": true,
+     "obo_followlink": true,
+     "obo_mergeable": false,
+     "obo_social": ["1"],
+     "obo_rowid_id__fld_name": null,
+     "obo_extend_id__obj_name": null,
+     "row_module_id__mdl_name": "MCPServer",
+     "obo_btn_reload": "P",
+     "obo_btn_prefs": "P",
+     "obo_btn_bookmark": "1",
+     "obo_btn_del": "P",
+     "obo_btn_copy": "P",
+     "obo_btn_export": "P",
+     "obo_btn_listadd": "1",
+     "obo_btn_listedit": "1",
+     "obo_btn_listupsert": "1",
+     "obo_btn_updall": "P",
+     "obo_btn_delall": "P",
+     "obo_btn_merge": "P",
+     "obo_btn_save": true,
+     "obo_btn_saveclose": true,
+     "obo_btn_savenew": true,
+     "obo_btn_savecopy": true,
+     "obo_btn_close": true,
+     "obo_tray": true,
+     "obo_dashboard": [
+      "1",
+      "2"
+     ],
+     "obo_prefix": "pro",
+     "obo_search_ts": null,
+     "obo_minrows": null,
+     "obo_maxrows": null,
+     "obo_sortable": true,
+     "obo_list_areas": null,
+     "obo_minifiable": "M",
+     "obo_minified": false,
+     "obo_permalink": null,
+     "obo_btn_searchform": true,
+     "obo_search_index": null,
+     "obo_search_column": "C",
+     "obo_search_dialog": true,
+     "obo_search_docked": false,
+     "obo_tpl_search_id__tpl_name": null,
+     "obo_tpl_search_pos": null
+    }
+   }]
+  },
+  {
+   "object": "ObjectFieldSystem",
+   "label": "Object fields",
+   "icon": "img/system/object_field",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptName~10",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptName",
+      "obf_order": 10,
+      "obf_group_by": null,
+      "obf_dfault_order": 1,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptLabel~20",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptLabel",
+      "obf_order": 20,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptContent~30",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptContent",
+      "obf_order": 30,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptType~40",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptType",
+      "obf_order": 40,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptIsActive~50",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptIsActive",
+      "obf_order": 50,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpMcppromptOrder~60",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpMcppromptOrder",
+      "obf_order": 60,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": null,
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mcpProModuleId~100",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mcpProModuleId",
+      "obf_order": 100,
+      "obf_group_by": null,
+      "obf_dfault_order": 1,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": null,
+      "obf_ref_object_id__obo_name": "Module",
+      "obf_cascad": "R",
+      "obf_card": "0,n",
+      "obf_visible": true,
+      "obf_ref_export": false,
+      "obf_copy": false,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": null,
+      "obf_joined_id__obf_field_id__fld_name": null,
+      "obf_joined_id__obf_order": null
+     }
+    },
+    {
+     "object": "ObjectFieldSystem",
+     "userkey": "McpPrompt~mdl_name~110",
+     "item": {
+      "obf_object_id__obo_name": "McpPrompt",
+      "obf_field_id__fld_name": "mdl_name",
+      "obf_order": 110,
+      "obf_group_by": null,
+      "obf_dfault_order": null,
+      "obf_reorder": null,
+      "obf_input": null,
+      "obf_ref_field_id__fld_name": "mcpProModuleId",
+      "obf_ref_object_id__obo_name": "Module",
+      "obf_cascad": null,
+      "obf_card": null,
+      "obf_visible": null,
+      "obf_ref_export": true,
+      "obf_copy": null,
+      "obf_ref_order": null,
+      "obf_fld_visible": null,
+      "obf_fld_required": null,
+      "obf_fld_updatable": null,
+      "obf_fld_research": null,
+      "obf_fld_more": null,
+      "obf_fld_listmore": null,
+      "obf_fld_researchreq": null,
+      "obf_fld_dfault": null,
+      "obf_fld_exportable": null,
+      "obf_fld_uk": null,
+      "obf_area_id__ofa_name": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer",
+      "obf_joined_id__obf_object_id__obo_name": "McpPrompt",
+      "obf_joined_id__obf_field_id__fld_name": "mcpProModuleId",
+      "obf_joined_id__obf_order": 100
+     }
+    }
+   ]
+  },
+  {
+   "object": "Link",
+   "label": "Links",
+   "icon": "img/system/link",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Link",
+    "userkey": "100~McpPrompt~mcpProModuleId",
+    "item": {
+     "obf_ref_object_id__obo_name": "Module",
+     "obf_order": 100,
+     "obf_ref_order": null,
+     "obf_object_id__obj_name": "McpPrompt",
+     "obf_field_id__fld_name": "mcpProModuleId",
+     "obf_cascad": "R",
+     "obf_anon": null,
+     "obf_card": "0,n",
+     "obf_query": null,
+     "obf_filters": null,
+     "obf_visible": true,
+     "obf_ref_export": false,
+     "obf_copy": false,
+     "obf_associate": null,
+     "obf_inline": false,
+     "obf_rendering": null,
+     "obf_treedepth": null,
+     "obf_redolog": null,
+     "obf_area_id__ofa_name": "McpPrompt-1",
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  },
+  {
+   "object": "Function",
+   "label": "Functions",
+   "icon": "img/system/function",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "Function",
+     "userkey": "MCP_PROMPT_CRUD",
+     "item": {
+      "fct_name": "MCP_PROMPT_CRUD",
+      "fct_object_id__obo_name": "McpPrompt",
+      "fct_function": "CMS",
+      "fct_action_id__act_name": null,
+      "fct_view_id__viw_name": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Function",
+     "userkey": "MCP_PROMPT_R",
+     "item": {
+      "fct_name": "MCP_PROMPT_R",
+      "fct_object_id__obo_name": "McpPrompt",
+      "fct_function": "L",
+      "fct_action_id__act_name": null,
+      "fct_view_id__viw_name": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Grant",
+   "label": "Grant",
+   "icon": "img/system/grant",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "Grant",
+     "userkey": "ADMIN~MCP_PROMPT_CRUD~McpPrompt~",
+     "item": {
+      "grt_group_id__grp_name": "ADMIN",
+      "grt_function_id__fct_name": "MCP_PROMPT_CRUD",
+      "grt_function_id__fct_object_id__obo_name": "McpPrompt",
+      "grt_function_id__fct_action_id__act_name": null,
+      "grt_activ": true,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Grant",
+     "userkey": "APP_ADMIN~MCP_PROMPT_CRUD~McpPrompt~",
+     "item": {
+      "grt_group_id__grp_name": "APP_ADMIN",
+      "grt_function_id__fct_name": "MCP_PROMPT_CRUD",
+      "grt_function_id__fct_object_id__obo_name": "McpPrompt",
+      "grt_function_id__fct_action_id__act_name": null,
+      "grt_activ": true,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Grant",
+     "userkey": "DESIGNER~MCP_PROMPT_CRUD~McpPrompt~",
+     "item": {
+      "grt_group_id__grp_name": "DESIGNER",
+      "grt_function_id__fct_name": "MCP_PROMPT_CRUD",
+      "grt_function_id__fct_object_id__obo_name": "McpPrompt",
+      "grt_function_id__fct_action_id__act_name": null,
+      "grt_activ": true,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Grant",
+     "userkey": "DESIGNER~MCP_PROMPT_R~McpPrompt~",
+     "item": {
+      "grt_group_id__grp_name": "DESIGNER",
+      "grt_function_id__fct_name": "MCP_PROMPT_R",
+      "grt_function_id__fct_object_id__obo_name": "McpPrompt",
+      "grt_function_id__fct_action_id__act_name": null,
+      "grt_activ": true,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Map",
+   "label": "Main menu",
+   "icon": "img/system/main_menu",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Map",
+    "userkey": "McpDomain~ObjectInternal(McpPrompt)~10",
+    "item": {
+     "map_domain_id__obd_name": "McpDomain",
+     "map_object": {
+      "object": "ObjectInternal",
+      "label": "Business object",
+      "userkeylabel": "McpPrompt",
+      "icon": "img/system/business_object",
+      "item": {"obo_name": "McpPrompt"}
+     },
+     "map_order": 10,
+     "map_ext": false,
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  },
+  {
+   "object": "Resource",
+   "label": "Resources",
+   "icon": "img/system/resource",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "Resource",
+     "userkey": "Disposition(default)~ANY~mcp-module",
+     "item": {
+      "res_object": {
+       "object": "Disposition",
+       "label": "Disposition",
+       "userkeylabel": "default",
+       "icon": "img/system/disposition",
+       "item": {"dis_code": "default"}
+      },
+      "res_type": "IMG",
+      "res_lang": "ANY",
+      "res_code": "mcp-module",
+      "res_cached": false,
+      "res_file": null,
+      "res_image": {
+       "path": "resources/Disposition/default/mcp-module.svg",
+       "mime": "image/svg+xml",
+       "name": "Model_Context_Protocol_logo.svg",
+       "alt": "Model Context Protocol Logo"
+      },
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "Resource",
+     "userkey": "Disposition(default)~ANY~ICONS_MCP",
+     "item": {
+      "res_object": {
+       "object": "Disposition",
+       "label": "Disposition",
+       "userkeylabel": "default",
+       "icon": "img/system/disposition",
+       "item": {"dis_code": "default"}
+      },
+      "res_type": "SET",
+      "res_lang": "ANY",
+      "res_code": "ICONS_MCP",
+      "res_cached": true,
+      "res_file": {
+       "path": "resources/Disposition/default/ICONS_MCP.zip",
+       "mime": "application/zip",
+       "name": "MCP Icons.zip"
+      },
+      "res_image": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Script",
+   "label": "Shared code",
+   "icon": "img/system/shared_code",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Script",
+    "userkey": "PlatformHooks",
+    "item": {
+     "scr_code": "PlatformHooks",
+     "scr_file": {
+      "path": "src/com/simplicite/commons/MCPServer/PlatformHooks.java",
+      "mime": "text/plain",
+      "name": "PlatformHooks.java"
+     },
+     "scr_type": "JSR",
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  },
+  {
+   "object": "TranslateField",
+   "label": "Field translation",
+   "icon": "img/system/translation",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptContent)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptContent",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptContent"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Content",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptContent)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptContent",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptContent"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Contenu",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptLabel)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptLabel",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptLabel"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Label",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptLabel)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptLabel",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptLabel"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Label",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptIsActive)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptIsActive",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptIsActive"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Active",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptIsActive)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptIsActive",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptIsActive"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Actif",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptOrder)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptOrder",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptOrder"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Order",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptOrder)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptOrder",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptOrder"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Ordre",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptName)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptName",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptName"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Name",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptName)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptName",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptName"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Nom",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptType)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptType",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptType"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Type",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpMcppromptType)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpMcppromptType",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpMcppromptType"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Type",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpProModuleId)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpProModuleId",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpProModuleId"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Module",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateField",
+     "userkey": "Field(mcpProModuleId)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Field",
+       "label": "Field",
+       "userkeylabel": "mcpProModuleId",
+       "icon": "img/system/field",
+       "item": {"fld_name": "mcpProModuleId"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Module",
+      "tsl_simplehelp": null,
+      "tsl_plural_value": null,
+      "tsl_short_value": null,
+      "tsl_placeholder": null,
+      "tsl_listhelp": null,
+      "tsl_tooltip": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "TranslateFieldArea",
+   "label": "Field area translation",
+   "icon": "img/system/translation",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "TranslateFieldArea",
+     "userkey": "ObjectFieldArea(McpPrompt-1)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectFieldArea",
+       "label": "Fields area",
+       "userkeylabel": "McpPrompt-1",
+       "icon": "img/system/field_area",
+       "item": {"ofa_name": "McpPrompt-1"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "McpPrompt-1",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateFieldArea",
+     "userkey": "ObjectFieldArea(McpPrompt-1)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectFieldArea",
+       "label": "Fields area",
+       "userkeylabel": "McpPrompt-1",
+       "icon": "img/system/field_area",
+       "item": {"ofa_name": "McpPrompt-1"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Prompt -1",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateFieldArea",
+     "userkey": "ObjectFieldArea(McpPromptGroup-1)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectFieldArea",
+       "label": "Fields area",
+       "userkeylabel": "McpPromptGroup-1",
+       "icon": "img/system/field_area",
+       "item": {"ofa_name": "McpPromptGroup-1"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "McpPromptGroup-1",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateFieldArea",
+     "userkey": "ObjectFieldArea(McpPromptGroup-1)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectFieldArea",
+       "label": "Fields area",
+       "userkeylabel": "McpPromptGroup-1",
+       "icon": "img/system/field_area",
+       "item": {"ofa_name": "McpPromptGroup-1"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Prompt group -1",
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "TranslateDomain",
+   "label": "Domain translation",
+   "icon": "img/system/translation",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "TranslateDomain",
+     "userkey": "Domain(McpDomain)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "Domain",
+       "label": "Domain",
+       "userkeylabel": "McpDomain",
+       "icon": "img/system/domain",
+       "item": {"obd_name": "McpDomain"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "MCP Server",
+      "tsl_help": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateDomain",
+     "userkey": "Domain(McpDomain)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "Domain",
+       "label": "Domain",
+       "userkeylabel": "McpDomain",
+       "icon": "img/system/domain",
+       "item": {"obd_name": "McpDomain"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Serveur MCP",
+      "tsl_help": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "TranslateObject",
+   "label": "Object translation",
+   "icon": "img/system/translation",
+   "field": "row_module_id",
+   "list": [
+    {
+     "object": "TranslateObject",
+     "userkey": "ObjectInternal(McpPrompt)~ENU",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectInternal",
+       "label": "Business object",
+       "userkeylabel": "McpPrompt",
+       "icon": "img/system/business_object",
+       "item": {"obo_name": "McpPrompt"}
+      },
+      "tsl_lang": "ENU",
+      "tsl_value": "Prompts",
+      "tsl_plural_value": null,
+      "tsl_help": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    },
+    {
+     "object": "TranslateObject",
+     "userkey": "ObjectInternal(McpPrompt)~FRA",
+     "item": {
+      "tsl_object": {
+       "object": "ObjectInternal",
+       "label": "Business object",
+       "userkeylabel": "McpPrompt",
+       "icon": "img/system/business_object",
+       "item": {"obo_name": "McpPrompt"}
+      },
+      "tsl_lang": "FRA",
+      "tsl_value": "Instructions IA",
+      "tsl_plural_value": null,
+      "tsl_help": null,
+      "row_module_id__mdl_name": "MCPServer"
+     }
+    }
+   ]
+  },
+  {
+   "object": "Dataset",
+   "label": "Datasets",
+   "icon": "img/color/file",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Dataset",
+    "userkey": "MCPServer~Basic_Prompts",
+    "item": {
+     "row_module_id__mdl_name": "MCPServer",
+     "dt_name": "Basic_Prompts",
+     "dt_file": {
+      "path": "data/Basic_Prompts.xml",
+      "mime": "text/xml",
+      "name": "MCPServer-dataOrdered-20260422171801.xml"
+     },
+     "dt_desc": null,
+     "dt_exportdate_from": null,
+     "dt_exportdate_to": null,
+     "dt_export_format": "xml",
+     "dt_export_zip": false
+    }
+   }]
+  },
+  {
+   "object": "DatasetObject",
+   "label": "Dataset objects (export order)",
+   "icon": "img/color/document",
+   "field": "row_module_id",
+   "list": [{
+    "object": "DatasetObject",
+    "userkey": "Basic_Prompts~McpPrompt",
+    "item": {
+     "dto_order": 1,
+     "dto_dt_id__dt_name": "Basic_Prompts",
+     "dto_obo_id__obo_name": "McpPrompt",
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  },
+  {
+   "object": "Permission",
+   "label": "Permissions",
+   "icon": "img/system/state_transition_permission",
+   "field": "row_module_id",
+   "list": [{
+    "object": "Permission",
+    "userkey": "DESIGNER~Domain(McpDomain)~",
+    "item": {
+     "prm_group_id__grp_name": "DESIGNER",
+     "prm_object": {
+      "object": "Domain",
+      "label": "Domain",
+      "userkeylabel": "McpDomain",
+      "icon": "img/system/domain",
+      "item": {"obd_name": "McpDomain"}
+     },
+     "prm_perm": true,
+     "prm_upd": false,
+     "prm_req": false,
+     "prm_prop": null,
+     "prm_value": null,
+     "row_module_id__mdl_name": "MCPServer"
+    }
+   }]
+  }
+ ]
+}
